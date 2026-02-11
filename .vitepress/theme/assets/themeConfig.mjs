@@ -5,25 +5,25 @@ export const themeConfig = {
     // 站点标题
     title: "Curve",
     // 站点描述
-    description: "Hello World",
+    description: "带你发现新世界",
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
-    site: "https://blog.imsyy.top",
+    site: "https://blog.mjbox.site",
     // 语言
     lang: "zh-CN",
     // 作者
     author: {
-      name: "Admin",
+      name: "宇宙中的尘埃",
       cover: "/images/logo/logo.webp",
       email: "114514@gmail.com",
-      link: "https://www.imsyy.top",
+      link: "https://mjbox.site",
     },
   },
   // 备案信息
-  icp: "萌ICP备114514号",
+  icp: "萌ICP备20260899号",
   // 建站日期
-  since: "2020-07-28",
+  since: "2026-02-10",
   // 每页文章数据
   postSize: 8,
   // inject
@@ -40,7 +40,7 @@ export const themeConfig = {
           rel: "alternate",
           type: "application/rss+xml",
           title: "RSS",
-          href: "https://blog.imsyy.top/rss.xml",
+          href: "https://blog.mjbox.site/rss.xml",
         },
       ],
       // 预载 CDN
@@ -155,7 +155,7 @@ export const themeConfig = {
         {
           icon: "/images/logo/logo.webp",
           name: "博客镜像站",
-          url: "https://blog-backup.imsyy.top/",
+          url: "https://blog-backup.mjbox.site/",
         },
       ],
     },
@@ -163,19 +163,19 @@ export const themeConfig = {
       name: "服务",
       list: [
         {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
+          icon: "/images/logo/logo.webp",
           name: "起始页",
-          url: "https://nav.imsyy.top/",
+          url: "https://nav.mjbox.site/",
         },
         {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
+          icon: "/images/logo/logo.webp",
           name: "今日热榜",
-          url: "https://hot.imsyy.top/",
+          url: "https://hot.mjbox.site/",
         },
         {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
+          icon: "/images/logo/logo.webp",
           name: "站点监测",
-          url: "https://status.imsyy.top/",
+          url: "https://status.mjbox.site/",
         },
       ],
     },
@@ -185,32 +185,32 @@ export const themeConfig = {
         {
           icon: "/images/logo/logo.webp",
           name: "Curve",
-          url: "https://github.com/imsyy/vitepress-theme-curve",
+          url: "https://github.com/hestiacn/vitepress-theme-curve",
         },
         {
-          icon: "https://pic.efefee.cn/uploads/2024/04/07/66124f5fc63c8.png",
+          icon: "/images/logo/logo.webp",
           name: "SPlayer",
-          url: "https://github.com/imsyy/SPlayer",
+          url: "https://github.com/hestiacn/SPlayer",
         },
         {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
+          icon: "/images/logo/logo.webp",
           name: "Snavigation",
-          url: "https://github.com/imsyy/SPlayer",
+          url: "https://github.com/hestiacn/SPlayer",
         },
         {
           icon: "/images/logo/logo.webp",
           name: "Home",
-          url: "https://github.com/imsyy/home",
+          url: "https://github.com/hestiacn/home",
         },
         {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
+          icon: "/images/logo/logo.webp",
           name: "DailyHotApi",
-          url: "https://github.com/imsyy/DailyHotApi",
+          url: "https://github.com/hestiacn/DailyHotApi",
         },
         {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
+          icon: "/images/logo/logo.webp",
           name: "site-status",
-          url: "https://github.com/imsyy/site-status",
+          url: "https://github.com/hestiacn/site-status",
         },
       ],
     },
@@ -239,7 +239,7 @@ export const themeConfig = {
     social: [
       {
         icon: "email",
-        link: "mailto:one@imsyy.top",
+        link: "mailto:one@mjbox.site",
       },
       {
         icon: "github",
@@ -276,10 +276,10 @@ export const themeConfig = {
       {
         text: "项目",
         items: [
-          { text: "Home", link: "https://github.com/imsyy/home/", newTab: true },
-          { text: "SPlayer", link: "https://github.com/imsyy/SPlayer/", newTab: true },
-          { text: "DailyHotApi", link: "https://github.com/imsyy/DailyHotApi/", newTab: true },
-          { text: "Snavigation", link: "https://github.com/imsyy/Snavigation/", newTab: true },
+          { text: "Home", link: "https://github.com/hestiacn/home/", newTab: true },
+          { text: "SPlayer", link: "https://github.com/hestiacn/SPlayer/", newTab: true },
+          { text: "DailyHotApi", link: "https://github.com/hestiacn/DailyHotApi/", newTab: true },
+          { text: "Snavigation", link: "https://github.com/hestiacn/Snavigation/", newTab: true },
         ],
       },
       {
@@ -302,9 +302,9 @@ export const themeConfig = {
       {
         text: "服务",
         items: [
-          { text: "站点状态", link: "https://status.imsyy.top/", newTab: true },
-          { text: "一个导航", link: "https://nav.imsyy.top/", newTab: true },
-          { text: "站点订阅", link: "https://blog.imsyy.top/rss.xml", newTab: true },
+          { text: "站点状态", link: "https://status.mjbox.site/", newTab: true },
+          { text: "一个导航", link: "https://nav.mjbox.site/", newTab: true },
+          { text: "站点订阅", link: "https://blog.mjbox.site/rss.xml", newTab: true },
           {
             text: "反馈投诉",
             link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
@@ -316,10 +316,10 @@ export const themeConfig = {
   },
   // 评论
   comment: {
-    enable: false,
+    enable: true,
     // 评论系统选择
     // artalk / twikoo
-    type: "artalk",
+    type: "giscus",
     // artalk
     // https://artalk.js.org/
     artalk: {
@@ -336,7 +336,23 @@ export const themeConfig = {
       region: "ap-shanghai",
       lang: "zh-CN",
     },
+    // giscus (用你生成的完整配置替换)
+    giscus: {
+      repo: "hestiacn/vitepress-theme-curve",
+      repoId: "R_kgDORNYd6w",
+      category: "Q&A",
+      categoryId: "DIC_kwDORNYd684C2ODu",
+      mapping: "pathname",
+      strict: "0",
+      reactionsEnabled: "1",
+      emitMetadata: "0",
+      inputPosition: "top",
+      theme: "preferred_color_scheme",
+      lang: "zh-CN",
+      loading: "lazy"
+    },
   },
+
   // 侧边栏
   aside: {
     // 站点简介
@@ -354,12 +370,13 @@ export const themeConfig = {
     },
     // 倒计时
     countDown: {
-      enable: true,
-      // 倒计时日期
-      data: {
-        name: "春节",
-        date: "2025-01-29",
-      },
+      enable: true, // 启用倒计时组件
+      // API配置
+      apiConfig: {
+        countryCode: 'CN',
+        showCount: 8,
+        maxDays: 180,
+      }
     },
     // 站点数据
     siteData: {
@@ -378,17 +395,13 @@ export const themeConfig = {
     },
   },
   // 音乐播放器
-  // https://github.com/imsyy/Meting-API
+  // https://github.com/hestiacn/Meting-API
   music: {
-    enable: false,
-    // url
-    url: "https://api-meting.example.com",
-    // id
-    id: 9379831714,
-    // netease / tencent / kugou
+    enable: true,
+    url: "https://music-api-liard.vercel.app",
+    id: "9379831714", 
     server: "netease",
-    // playlist / album / song
-    type: "playlist",
+    type: "playlist"
   },
   // 搜索
   // https://www.algolia.com/

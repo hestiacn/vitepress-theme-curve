@@ -210,30 +210,32 @@ export const downloadImage = (imageUrl) => {
 };
 
 /**
- * 获取根据当前时间的问候语
- * @returns {string} 当前时间对应的问候语
+ * 根据当前时间获取优雅的问候语
+ * @returns {string} 契合时间段的温馨问候
  */
 export const getGreetings = () => {
   const hour = new Date().getHours();
-  let hello;
+  let greeting;
+  
   if (hour < 6) {
-    hello = "凌晨好，昨晚睡得怎么样？";
+    greeting = "凌晨好，静谧的夜晚是否安好？";
   } else if (hour < 9) {
-    hello = "早上好，今天也要开心哦！";
+    greeting = "晨光熹微，新的一天请保持愉悦";
   } else if (hour < 12) {
-    hello = "上午好，今天也要加油哦！";
+    greeting = "上午好，愿您今日诸事顺遂";
   } else if (hour < 14) {
-    hello = "中午好，吃饱了精神好！";
+    greeting = "午安，愿美食为您注入活力";
   } else if (hour < 17) {
-    hello = "下午好，继续加油！";
+    greeting = "午后时光，继续闪耀前行";
   } else if (hour < 19) {
-    hello = "傍晚好，是时候放松一下了！";
+    greeting = "傍晚时分，让身心稍作休憩";
   } else if (hour < 22) {
-    hello = "晚上好，是时候休息了！";
+    greeting = "夜幕降临，是时候放松充电了";
   } else {
-    hello = "夜深了，明天继续加油！";
+    greeting = "夜深了，愿您明日依旧光芒万丈";
   }
-  return hello;
+  
+  return greeting;
 };
 
 // 打乱数组 - Fisher-Yates 洗牌算法
